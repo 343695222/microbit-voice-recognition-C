@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "microbit-voice-recognition",
     "description": "A micro:bit extension for voice recognition using Edge Impulse models",
@@ -42,4 +43,5 @@
     "compilerOptions": {
         "cppStandard": "c++14"
     }
+}
 }
