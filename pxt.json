@@ -1,0 +1,45 @@
+{
+    "name": "microbit-voice-recognition",
+    "description": "A micro:bit extension for voice recognition using Edge Impulse models",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "main.ts",
+        "voice-recognition.ts",
+        "edge-impulse-wrapper.cpp",
+        "edge-impulse-wrapper.h",
+        "voice-recognition-binding.cpp",
+        "shims.d.ts"
+    ],
+    "testFiles": [
+        "test.ts",
+        "test-main.cpp"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "Edge Impulse Voice Recognition Extension",
+    "homepage": "https://github.com/your-username/microbit-voice-recognition",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    },
+    "compilerOptions": {
+        "cppStandard": "c++14"
+    }
+}
